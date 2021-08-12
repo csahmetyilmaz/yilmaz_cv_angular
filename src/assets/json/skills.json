@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "description": "JAVA",
+    "level": 70,
+    "levelText": "Intermediate"
+  },
+  {
+    "id": 2,
+    "description": "Javascript",
+    "level": 80,
+    "levelText": "Expert"
+  },
+  {
+    "id": 3,
+    "description": "PHP",
+    "level": 85,
+    "levelText": "Expert"
+  },
+  {
+    "id": 4,
+    "description": "NodeJs",
+    "level": 80,
+    "levelText": "Expert"
+  },
+  {
+    "id": 5,
+    "description": "MySql",
+    "level": 90,
+    "levelText": "Master"
+  },
+  {
+    "id": 6,
+    "description": "WordPress",
+    "level": 95,
+    "levelText": "Advanced"
+  },
+  {
+    "id": 7,
+    "description": "Adobe PhotoShop",
+    "level": 95,
+    "levelText": "Advanced"
+  }
+]
