@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {CvService} from "../../services/cv.service";
+import {ProfilInfo} from "../../models/profilInfo";
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public profilInfos : ProfilInfo[] =[];
+
+  constructor(private cvService : CvService) { }
 
   ngOnInit(): void {
+    this.getProfilinfos();
   }
 
+  public getProfilinfos() {
+    this.cvService.getProfilinfos().subscribe(data => {this.profilInfos = data});
+  }
 }

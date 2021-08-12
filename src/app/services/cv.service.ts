@@ -6,6 +6,7 @@ import {environment} from "../../environments/environment";
 import {Observable} from "rxjs";
 import {Experience} from "../models/experience";
 import {Skill} from "../models/skill";
+import {ProfilInfo} from "../models/profilInfo";
 
 @Injectable({
   providedIn: 'root'
@@ -29,5 +30,9 @@ export class CvService {
 
   public getSkills():Observable<Skill[]> {
     return this.http.get<Skill[]>(this.jsonUrl + "skills.json")
+  }
+
+  getProfilinfos(): Observable<ProfilInfo[]> {
+    return this.http.get<ProfilInfo[]>(this.jsonUrl+"homepage.json")
   }
 }
