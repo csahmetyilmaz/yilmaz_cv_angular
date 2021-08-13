@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {CvService} from "../../services/cv.service";
+import {Reference} from "../../models/reference";
 
 @Component({
   selector: 'app-references',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./references.component.css']
 })
 export class ReferencesComponent implements OnInit {
+  public references: Reference[] = [];
 
-  constructor() { }
+  constructor(private cvService: CvService) {
+    this.getReferences();
+  }
 
   ngOnInit(): void {
   }
 
+  public getReferences() {
+    this.cvService.getReferences().subscribe(data => {
+      this.references = data;
+    });
+  }
 }

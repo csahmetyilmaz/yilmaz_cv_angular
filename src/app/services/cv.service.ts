@@ -8,6 +8,7 @@ import {Experience} from "../models/experience";
 import {Skill} from "../models/skill";
 import {ProfilInfo} from "../models/profilInfo";
 import {Portfolio} from "../models/portfolio";
+import {Reference} from "../models/reference";
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,7 @@ import {Portfolio} from "../models/portfolio";
 export class CvService {
 
   siteUrl = environment.siteUrl;
-  jsonUrl =  "/assets/json/"
+  jsonUrl = this.siteUrl + "/assets/json/"
 
 
   constructor(private http: HttpClient) {
@@ -29,17 +30,20 @@ export class CvService {
     return this.http.get<Experience[]>(this.jsonUrl + "experiences.json")
   }
 
-  public getSkills():Observable<Skill[]> {
+  public getSkills(): Observable<Skill[]> {
     return this.http.get<Skill[]>(this.jsonUrl + "skills.json")
   }
 
   getProfilinfos(): Observable<ProfilInfo[]> {
-    return this.http.get<ProfilInfo[]>(this.jsonUrl+"homepage.json")
+    return this.http.get<ProfilInfo[]>(this.jsonUrl + "homepage.json")
   }
 
   getPortfolio(): Observable<Portfolio[]> {
-    return this.http.get<Portfolio[]>(this.jsonUrl+"portfolio.json")
+    return this.http.get<Portfolio[]>(this.jsonUrl + "portfolio.json")
   }
 
 
+  getReferences(): Observable<Reference[]> {
+    return this.http.get<Reference[]>(this.jsonUrl + "references.json")
+  }
 }
