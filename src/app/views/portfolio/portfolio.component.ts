@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {CvService} from "../../services/cv.service";
+import {Portfolio} from "../../models/portfolio";
 
 @Component({
   selector: 'app-portfolio',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
+  public portfolios: Portfolio[] = [];
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private cvService: CvService) {
   }
 
+  ngOnInit(): void {
+    this.getPortfolio();
+  }
+
+  public getPortfolio() {
+    this.cvService.getPortfolio().subscribe(data => {
+      this.portfolios = data;
+    });
+  }
 }

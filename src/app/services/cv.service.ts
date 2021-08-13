@@ -7,6 +7,7 @@ import {Observable} from "rxjs";
 import {Experience} from "../models/experience";
 import {Skill} from "../models/skill";
 import {ProfilInfo} from "../models/profilInfo";
+import {Portfolio} from "../models/portfolio";
 
 @Injectable({
   providedIn: 'root'
@@ -35,4 +36,10 @@ export class CvService {
   getProfilinfos(): Observable<ProfilInfo[]> {
     return this.http.get<ProfilInfo[]>(this.jsonUrl+"homepage.json")
   }
+
+  getPortfolio(): Observable<Portfolio[]> {
+    return this.http.get<Portfolio[]>(this.jsonUrl+"portfolio.json")
+  }
+
+
 }
