@@ -18,10 +18,7 @@ export class ProfilInfo {
   public phone: string;
   public address: string;
 
-
-  constructor(id: number, imgLink: string, cvPdfLink: string, bgImageLink: string, twitter: string, facebook: string,
-              instagram: string, github: string, titleLeft: string, titleRight: string,
-              briefProfil: string, age: number,  email: string, skype: string, phone: string, address: string) {
+  constructor(id: number, imgLink: string, cvPdfLink: string, bgImageLink: string, twitter: string, facebook: string, instagram: string, github: string, titleLeft: string, titleRight: string, briefProfil: string, age: number, email: string, skype: string, phone: string, address: string) {
     this.id = id;
     this.imgLink = imgLink;
     this.cvPdfLink = cvPdfLink;
@@ -39,4 +36,6 @@ export class ProfilInfo {
     this.phone = phone;
     this.address = address;
   }
+
+
 }

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Contact} from "../../models/contact";
+import {CvService} from "../../services/cv.service";
 
 @Component({
   selector: 'app-contact',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  public contactRefs: Contact[] = [];
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private cvService: CvService) {
   }
 
+  ngOnInit(): void {
+    this.getContactRefs();
+  }
+
+  public getContactRefs() {
+    this.cvService.getContactRef().subscribe(data => {
+      this.contactRefs = data;
+    })
+  }
 }

@@ -9,6 +9,7 @@ import {Skill} from "../models/skill";
 import {ProfilInfo} from "../models/profilInfo";
 import {Portfolio} from "../models/portfolio";
 import {Reference} from "../models/reference";
+import {Contact} from "../models/contact";
 
 @Injectable({
   providedIn: 'root'
@@ -45,5 +46,8 @@ export class CvService {
 
   getReferences(): Observable<Reference[]> {
     return this.http.get<Reference[]>(this.jsonUrl + "references.json")
+  }
+  getContactRef(): Observable<Contact[]> {
+    return this.http.get<Contact[]>(this.jsonUrl + "contact.json")
   }
 }
