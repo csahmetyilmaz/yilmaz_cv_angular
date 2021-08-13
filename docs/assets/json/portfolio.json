@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "projImgLink": "../../../assets/img/sva.jpg",
+    "projImgLink": "assets/img/sva.jpg",
     "workType": "Frontend / HTML / CSS / JavaScript",
     "title": "Voyage Adapte Travel agency website",
     "content": "Built highly performant website front end for a travel agency. Delivered codebase in PHP,MySQL, HTML, CSS and wordpress.",
     "position": "left"
   },{
     "id": 2,
-    "projImgLink": "../../../assets/img/arborea.jpg",
+    "projImgLink": "assets/img/arborea.jpg",
     "workType": "FullStack / HTML / CSS / JavaScript",
     "title": "Arborea forest service company website",
     "content": "Built highly performant website front end for a travel agency. Delivered codebase in PHP,MySQL, HTML, CSS and wordpress.",
     "position": "right"
   },{
     "id": 3,
-    "projImgLink": "../../../assets/img/crr.jpg",
+    "projImgLink": "assets/img/crr.jpg",
     "workType": "FullStack PHP / MySQL / HTML / SCSS / JavaScript",
     "title": "Travel agency website",
     "content": "Built highly performant website front end for a travel agency. Delivered codebase in PHP,MySQL, HTML, CSS and wordpress.",
@@ -23,7 +23,7 @@
   },
   {
     "id": 4,
-    "projImgLink": "../../../assets/img/blanchet.jpg",
+    "projImgLink": "assets/img/blanchet.jpg",
     "workType": "Realisation chart graphic - Front end -  HTML / SCSS / JavaScript",
     "title": "Blanchet website",
     "content": "Built highly performant website front end for a travel agency. Delivered codebase in PHP,MySQL, HTML, CSS and wordpress.",

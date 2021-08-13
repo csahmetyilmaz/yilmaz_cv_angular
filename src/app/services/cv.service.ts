@@ -17,7 +17,7 @@ import {Contact} from "../models/contact";
 export class CvService {
 
   siteUrl = environment.siteUrl;
-  jsonUrl = this.siteUrl + "/assets/json/"
+  jsonUrl = "assets/json/"
 
 
   constructor(private http: HttpClient) {

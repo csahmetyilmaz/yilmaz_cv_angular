@@ -4,20 +4,20 @@
     "title":"Manager MCO IT Team",
     "company":"Nicomatic",
     "message":"Ahmet is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player ",
-    "img":"../../../assets/img/pierre.jpg"
+    "img":" assets/img/pierre.jpg"
   },{
     "name":"Raphael BITTER",
     "title":"CEO Sharewood",
     "company":"TIME TO COM",
     "message":"He displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team ",
-    "img":"../../../assets/img/raphael.jpg"
+    "img":" assets/img/raphael.jpg"
   },
   {
     "name":"Sambo ABOUBACAR",
     "title":"General director of school",
     "company":"Ufuk International",
     "message":"I and my students, we are missing our dear computer teacher. Very good result on our IT classes",
-    "img":"../../../assets/img/sambo.jpg"
+    "img":" assets/img/sambo.jpg"
   }
 
 ]
