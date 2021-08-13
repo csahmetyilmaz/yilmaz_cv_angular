@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Developer & Assistant of project manager",
+    "company": "NICOMATIC",
+    "address": "Bons-en-Chablais",
+    "dateFrom": "2020",
+    "dateUntil": "2021",
+    "tasks": [
+      "Api Manager on AWS",
+      "Create user stories",
+      "Project management for ERP projects",
+      "Maintenance of php applications"
+    ]
+
+  },{
+    "id": 2,
+    "title": "Developer PHP",
+    "company": "TIME TO COM (Sharewood)",
+    "address": "Lyon 4",
+    "dateFrom": "2019",
+    "dateUntil": "2020",
+    "tasks": [
+      "Conception of wordpress website",
+      "Maintenance of php websites",
+      "Integration Web",
+      "Front end development"
+    ]
+
+  },
+  {
+    "id": 3,
+    "title": "Responsible of IT and Media",
+    "company": "SAS LIMON",
+    "address": "Venissieux",
+    "dateFrom": "2019",
+    "dateUntil": "2018",
+    "tasks": [
+      "Creation advertisement",
+      "Social media publisher",
+      "User test for ERP program"
+    ]
+
+  },
+  {
+    "id": 4,
+    "title": "Computer Teacher",
+    "company": "UFUK International College",
+    "address": "Cotonou,BENIN",
+    "dateFrom": "2014",
+    "dateUntil": "2017",
+    "tasks": [
+      "IT lesson college level",
+      "Preparation to international olympiad",
+      "IT Media club"
+    ]
+
+  },
+  {
+    "id": 5,
+    "title": "Computer Teacher",
+    "company": "Ste NASIRA",
+    "address": "Libreville,GABON",
+    "dateFrom": "2009",
+    "dateUntil": "2014",
+    "tasks": [
+      "IT lesson college level",
+      "Preparation to international olympiad",
+      "IT Media club"
+    ]
+
+  }
+
+]

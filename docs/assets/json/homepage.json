@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "imgLink": "../../../assets/img/avatar.jpg",
+    "bgImageLink": "../../../assets/img/header-background.jpg",
+    "twitter": "https://twitter.com/",
+    "facebook": "https://facebook.com/co-digitale",
+    "instagram": "https://instagram.com/",
+    "github": "https://github.com/csahmetyilmaz",
+    "cvPdfLink": "../../../assets/cv-ahmet-yilmaz.pdf",
+    "titleLeft": "A propos",
+    "titleRight": "Bio",
+    "briefProfil": "Hello! I’m Ahmet YILMAZ. I am passionate about development and Web Design. I am a skilled full stack developer and master of graphic design tools such as Photoshop and figma. I am a quick learner and a team worker that gets the job done.\n\nI can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.",
+    "age": 34,
+    "email": "ahmet.yilmaz@ipilyon.net",
+    "skype": "csahmetyilmaz",
+    "phone": "(+33)(0)758257420",
+    "address": "Bron - France"
+  }
+]

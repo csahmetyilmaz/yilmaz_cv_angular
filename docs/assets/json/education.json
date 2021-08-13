@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "level": "Master",
+    "dept": "Chef de projet en Ingénerie Logiciel",
+    "school": "Ecole Supérieur en Informatique IPI",
+    "place": "Lyon",
+    "year": "2022",
+    "brief": "After my developer experience I would like to add management skill on my route."
+  },
+  {
+    "id": 2,
+    "level": "Licence",
+    "dept": "Fullstack Developer",
+    "school": "AFIP",
+    "place": "Villeurbanne",
+    "year": "2019",
+    "brief":"I got a good experience in this school with a good portfolio."
+  },
+  {
+    "id": 3,
+    "level": "Licence",
+    "dept": "Computer Teaching",
+    "school": "Kocaeli University",
+    "place": "Turkey",
+    "year": "2009",
+    "brief":"I invested in electronic and computer science technical faculty."
+  }
+
+]
