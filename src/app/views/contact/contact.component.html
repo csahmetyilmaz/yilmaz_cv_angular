@@ -4,27 +4,49 @@
     <div class="row mb-4">
       <div class="col-md-5 aos-init aos-animate" data-aos="fade-left" data-aos-delay="200">
         <div class="mt-1">
-          <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> {{contactRefs[0].tel}}</div>
-          <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> {{contactRefs[0].mail}}</div>
+          <div class="h6"><i class="fas fa-phone pe-2 text-muted"
+                             style="width:24px;opacity:0.85;"></i> {{contactRefs[0].tel}}</div>
+          <div class="h6"><i class="far fa-envelope pe-2 text-muted"
+                             style="width:24px;opacity:0.85;"></i> {{contactRefs[0].mail}}</div>
         </div>
-        <div class="mt-5 d-print-none"><form action="https://formspree.io/your@email.com" method="POST">
-          <div class="form-outline mb-4">
-            <input type="text" id="name" class="form-control" required="">
-            <label class="form-label" for="name" style="margin-left: 0px;">Name</label>
-            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 41.6px;"></div><div class="form-notch-trailing"></div></div></div>
-          <div class="form-outline mb-4">
-            <input type="email" id="email" class="form-control" required="">
-            <label class="form-label" for="email" style="margin-left: 0px;">Email address</label>
-            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
-          <div class="form-outline mb-4">
-            <textarea class="form-control" style="resize: none;" id="message" rows="4" required=""></textarea>
-            <label class="form-label" for="message" style="margin-left: 0px;">Message</label>
-            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 60px;"></div><div class="form-notch-trailing"></div></div></div>
-          <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
-        </form>
+        <div class="mt-5 d-print-none">
+          <form action="https://formspree.io/f/xgerpvgb" method="POST">
+            <div class="form-outline mb-4">
+              <input type="text" id="name"  class="form-control" required="">
+              <label class="form-label" for="name" style="margin-left: 0px;">Name</label>
+              <div class="form-notch">
+                <div class="form-notch-leading" style="width: 9px;"></div>
+                <div class="form-notch-middle" style="width: 41.6px;"></div>
+                <div class="form-notch-trailing"></div>
+              </div>
+            </div>
+            <div class="form-outline mb-4">
+              <input type="email" id="email" name="_replyto" class="form-control" required="">
+              <label class="form-label" for="email" style="margin-left: 0px;">Email address</label>
+              <div class="form-notch">
+                <div class="form-notch-leading" style="width: 9px;"></div>
+                <div class="form-notch-middle" style="width: 88.8px;"></div>
+                <div class="form-notch-trailing"></div>
+              </div>
+            </div>
+            <div class="form-outline mb-4">
+              <textarea class="form-control" name="message" style="resize: none;" id="message" rows="4" required=""></textarea>
+              <label class="form-label" for="message" style="margin-left: 0px;">Message</label>
+              <div class="form-notch">
+                <div class="form-notch-leading" style="width: 9px;"></div>
+                <div class="form-notch-middle" style="width: 60px;"></div>
+                <div class="form-notch-trailing"></div>
+              </div>
+            </div>
+            <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
+          </form>
         </div>
       </div>
-      <div class="col-md-7 d-print-none aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7328.140573055692!2d4.908165286641416!3d45.73355618943182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c1763ee80817%3A0x408ab2ae4bb27c0!2s69500%20Bron!5e0!3m2!1str!2sfr!4v1628863931953!5m2!1str!2sfr" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe> </div>
+      <div class="col-md-7 d-print-none aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7328.140573055692!2d4.908165286641416!3d45.73355618943182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c1763ee80817%3A0x408ab2ae4bb27c0!2s69500%20Bron!5e0!3m2!1str!2sfr!4v1628863931953!5m2!1str!2sfr"
+          width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
   </div>
 </div>
